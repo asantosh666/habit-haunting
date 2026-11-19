@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "name": "Lint and test on save",
+  "description": "On save of source files, run lint and unit tests, and block hard-coded dates in tests.",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": ["src/**/*.ts", "src/**/*.tsx"]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A source file was saved. 1) Run the project's lint command and the unit test command once (non-watch mode, e.g. `npm run lint` and `npx vitest run`), and report failures with the file and line. If the project is not scaffolded yet and no lint or test script exists, say so and stop. 2) Scan every test file (*.test.ts, *.test.tsx, and anything under tests/ or __tests__/) for hard-coded dates: ISO date strings such as '2024-03-09', `new Date(` with literal arguments, `Date.now()` and `new Date()` with no arguments, and literal epoch numbers. Dates in tests must come from fast-check arbitraries, a fixed injected Clock or DemoClock, or a shared test helper that builds dates relative to a base date. If you find any hard-coded date, treat it as a failure: do not accept the change, report each occurrence with file and line, and fix it before continuing. Date-focused fixtures in the dates module tests (DST boundary tables) may use literal dates only through the shared fixture helper named in the design."
+  }
+}
