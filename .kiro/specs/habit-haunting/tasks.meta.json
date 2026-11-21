@@ -1,0 +1,275 @@
+{
+  "pbtResults": {
+    "2.2 Write property test for date arithmetic": {
+      "status": "passed",
+      "lastRunTimestamp": 1795122345463
+    }
+  },
+  "executionHistory": {
+    "1. Set up project structure and test tooling": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121282820
+      },
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121289021
+      },
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121653626
+      }
+    ],
+    "2.1 Implement `dates/localDate.ts`": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121282872
+      },
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121656311
+      },
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121970188
+      }
+    ],
+    "3.1 Define data types and constants": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121282986
+      },
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121656642
+      },
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121970315
+      }
+    ],
+    "3.2 Implement streak and missed-day computation": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121283036
+      },
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121974752
+      },
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795122364694
+      }
+    ],
+    "3.3 Implement ghost, flame, darkness, and haunted functions": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121283081
+      },
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121974848
+      },
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795122364748
+      }
+    ],
+    "4. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121283185
+      }
+    ],
+    "5.1 Implement habit management functions": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121283235
+      }
+    ],
+    "5.2 Implement `applyCheckIn`": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121283290
+      }
+    ],
+    "5.3 Implement relic evaluation and sorting": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121283344
+      }
+    ],
+    "6.1 Implement `buildDashboardViewModel`": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121283392
+      }
+    ],
+    "6.2 Implement `buildSeedHabits` and `buildDemoHouse`": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121283465
+      }
+    ],
+    "7. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121283519
+      }
+    ],
+    "8.1 Implement storage adapters and persistence": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121283591
+      }
+    ],
+    "8.2 Implement export and import": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121283683
+      }
+    ],
+    "9.1 Implement `Clock`, `systemClock`, and `DemoClock`": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121283718
+      }
+    ],
+    "10.1 Implement reducer, store, and date watcher": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121283764
+      }
+    ],
+    "11. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121283800
+      }
+    ],
+    "12.1 Implement `HouseView` and `CandleDetail`": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121283845
+      }
+    ],
+    "12.2 Implement `TodayList`, `GraveyardCalendar`, and `HabitForm`": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121283893
+      }
+    ],
+    "12.3 Implement `RelicList`, `Onboarding`, `TransferPanel`, `DemoControl`, and `Banner`": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121283940
+      }
+    ],
+    "12.4 Implement `Dashboard` and wire the app": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121283982
+      }
+    ],
+    "13. Final checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121284084
+      }
+    ],
+    "2. Implement the dates module": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121970272
+      }
+    ],
+    "2.2 Write property test for date arithmetic": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795121974653
+      },
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795122364588
+      }
+    ],
+    "3. Implement engine types, constants, and pure computations": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795122364807
+      }
+    ],
+    "3.4 Write property test for deterministic, well-formed engine output": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795122369456
+      }
+    ],
+    "3.5 Write property test for out-of-range check-ins": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795122369569
+      }
+    ],
+    "3.6 Write property test for missing a day": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795122369653
+      }
+    ],
+    "3.7 Write property test for ghost level mapping": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795122370188
+      }
+    ],
+    "3.8 Write property test for ghost size and opacity": [
+      {
+        "executionId": "a157aec5-99a4-4dc2-aee2-cd02bea7b8a1",
+        "chatSessionId": "sess_cd75af97-c973-4b70-b2f9-8f6dfe41ca6c",
+        "timestamp": 1795122370290
+      }
+    ]
+  }
+}

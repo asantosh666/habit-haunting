@@ -1,0 +1,83 @@
+@import './tokens.css';
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg-graphite);
+  color: var(--bone-ghost);
+  font-family: Georgia, 'Times New Roman', serif;
+  line-height: 1.5;
+}
+h1, h2, h3 { margin: 0 0 0.5rem; font-weight: normal; }
+h1 { font-size: 1.75rem; }
+h2 { font-size: 1.25rem; color: var(--amber-safelight); }
+.app { max-width: 72rem; margin: 0 auto; padding: 1rem; display: grid; gap: 1.25rem; }
+.panel { background: var(--bg-graphite-raised); border: 1px solid var(--line-graphite); border-radius: 6px; padding: 1rem; }
+.muted { color: var(--bone-mist); }
+
+button, input { font: inherit; }
+button {
+  background: var(--bg-graphite);
+  color: var(--bone-ghost);
+  border: 1px solid var(--line-graphite);
+  border-radius: 4px;
+  padding: 0.35rem 0.8rem;
+  cursor: pointer;
+  transition: background var(--transition), border-color var(--transition);
+}
+button:hover { border-color: var(--amber-glow); }
+button.primary { background: var(--amber-safelight); color: var(--bg-graphite); border-color: var(--amber-safelight); }
+button.primary:hover { background: var(--amber-glow); }
+:focus-visible { outline: 2px solid var(--amber-safelight); outline-offset: 2px; }
+input[type='text'] {
+  background: var(--bg-graphite);
+  color: var(--bone-ghost);
+  border: 1px solid var(--line-graphite);
+  border-radius: 4px;
+  padding: 0.35rem 0.5rem;
+}
+input[aria-invalid='true'] { border-color: var(--amber-glow); }
+.field-error { color: var(--amber-glow); margin: 0.25rem 0 0; }
+
+.banners { display: grid; gap: 0.5rem; }
+.banner {
+  display: flex; gap: 0.75rem; align-items: center; justify-content: space-between;
+  background: var(--shadow-deep); color: var(--amber-glow);
+  border: 1px solid var(--amber-dim); border-radius: 4px; padding: 0.5rem 0.75rem;
+}
+.banner.info { color: var(--bone-ghost); border-color: var(--line-graphite); }
+
+.house { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 0.75rem; }
+.room { margin: 0; }
+.room figcaption { color: var(--bone-mist); margin-bottom: 0.25rem; }
+.room svg { width: 100%; height: auto; display: block; border: 1px solid var(--line-graphite); border-radius: 4px; }
+.room-wall { fill: var(--bg-graphite); }
+.room-floor { fill: var(--bg-graphite-raised); }
+.room-dark { fill: var(--shadow-deep); pointer-events: none; transition: fill-opacity var(--transition); }
+.wax { fill: var(--bone-mist); }
+.candle.unlit .wax { fill: var(--amber-dim); }
+.wick { stroke: var(--amber-dim); stroke-width: 2; }
+.flame { fill: var(--amber-safelight); stroke: var(--amber-glow); stroke-width: 1; transition: ry var(--transition), cy var(--transition); }
+.candle { cursor: pointer; }
+.candle:focus-visible { outline: none; }
+.candle:focus-visible .wax, .candle.selected .wax { stroke: var(--amber-safelight); stroke-width: 2; }
+.ghost { fill: var(--bone-ghost); transition: opacity var(--transition); pointer-events: none; }
+.ghost-eye { fill: var(--bg-graphite); }
+
+.today-list, .manage-list, .relics { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.5rem; }
+.row { display: flex; gap: 0.75rem; align-items: center; justify-content: space-between; flex-wrap: wrap; background: var(--bg-graphite); border: 1px solid var(--line-graphite); border-radius: 4px; padding: 0.5rem 0.75rem; }
+.row .actions { display: flex; gap: 0.5rem; }
+
+table.calendar { border-collapse: collapse; width: 100%; }
+.calendar th, .calendar td { border: 1px solid var(--line-graphite); padding: 0.3rem 0.5rem; text-align: center; }
+.calendar th:first-child, .calendar td:first-child { text-align: left; }
+.cell-checked { color: var(--amber-safelight); }
+.cell-missed { color: var(--bone-mist); }
+
+.dialog { background: var(--bg-graphite); border: 1px solid var(--amber-dim); border-radius: 4px; padding: 0.75rem; margin-top: 0.75rem; }
+.dialog .actions { display: flex; gap: 0.5rem; margin-top: 0.5rem; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }

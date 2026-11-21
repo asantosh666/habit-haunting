@@ -1,0 +1,14 @@
+/* The only place colors are defined. Components reference these variables. */
+:root {
+  --bg-graphite: #26221f;
+  --bg-graphite-raised: #322d29;
+  --line-graphite: #4a423c;
+  --amber-safelight: #ffb347;
+  --amber-glow: #ff9a1f;
+  --amber-dim: #a8691c;
+  --bone-ghost: #e9e2d0;
+  --bone-mist: #c9c1ac;
+  --shadow-deep: #0d0b0a;
+
+  --transition: 250ms ease;
+}
